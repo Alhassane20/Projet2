@@ -1,0 +1,365 @@
+@media screen and (max-width: 767px) {
+
+header
+{
+    height: 130px;
+}
+#Bookilogo
+{
+    margin-left: 157px;
+}
+#liens
+{
+    margin: 0px;
+    margin-top: 100px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.element1:focus-within
+{
+    border-bottom: solid;
+    border-color: #0065FC;
+    color: #0065FC;
+}
+
+.element2:focus-within
+{
+    border-bottom: solid;
+    border-color: #0065FC;
+    color: #0065FC;
+}
+#liens a:focus
+{
+    color: #0065FC;
+}
+
+.element1 a {
+    
+    color: #0065FC;
+}
+
+.element1
+{
+    padding: 0;
+    width: 50%;
+    text-align: center;
+    height: 100%;
+    padding-bottom: 24px;
+}
+
+.element2
+{
+    width: 50%;
+    padding: 0;
+    border-width: 188px;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+nav h1
+{
+    margin-top: 80px;
+    margin-left: 20px;
+    width: 298px;
+    position: absolute;
+}
+nav p
+{
+    margin-top: 145px;
+    margin-left: 20px;
+}
+#Recherche
+{
+    margin-top: 200px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+#Recherche i.fa-location-dot
+{
+    width: 50px;
+}
+#Recherche .Endroit
+{
+    width: 232px;
+}
+#Recherche .search_icon
+{
+    display: inline;
+}
+#Recherche .bouton
+{
+    width: 49px;
+    height: 49px;
+}
+#Recherche .search_text
+{
+    display: none;
+}
+form
+{
+    margin-left: 20px;
+}
+#Filtres p
+{
+    margin-left: 20px;
+    margin-top: 280px;
+}
+.Economique
+{
+    margin-top: 320px;
+    margin-left: 20px;
+    margin-right: 0px;
+    font-size: 11px;
+    width: 160px;
+    padding-left: 0px;
+    text-align: justify;
+}
+.Economique i
+{
+    margin-left: 10px;
+    font-size: 16px;
+}
+.Familial
+{
+    margin-top: 320px;
+    margin-left: 14px;
+    font-size: 11px;
+    width: 160px;
+    padding-left: 0px;
+    text-align: justify;
+}
+.Familial i
+{
+    margin-left: 10px;
+    font-size: 16px;
+}
+.Romantique
+{
+    margin-top: 387px;
+    margin-left: 20px;
+    position: absolute;
+    font-size: 11px;
+    width: 160px;
+    padding-left: 0px;
+    text-align: justify;
+}
+.Romantique i 
+{
+    margin-left: 10px;
+    font-size: 16px;
+}
+.Animaux
+{
+    margin-top: 387px;
+    margin-left: 207px;
+    position: absolute;
+    font-size: 11px;
+    width: 160px;
+    padding-left: 0px;
+    text-align: justify;
+}
+.Animaux i 
+{
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+aside
+{
+    margin-top: 445px;
+    margin-left: 20px;
+    width: 298px;
+    height: 57px;
+}
+
+
+.article1
+{
+    margin-top: 1210px;
+    margin-left: 0px;
+    width: 335px;
+    height: 1500px;
+    background-color: white;
+}
+.card1
+{
+    margin-left: 20px;
+    width: 335px;
+    height: 199px;
+}
+.article1 .container h4
+{
+    padding-left: 0px;
+}
+.article1 .container p
+{
+    padding-left: 0px;
+}
+.article1 .etoiles
+{
+    margin-left: 0px;
+}
+
+.card2
+{
+    margin-top: 230px;
+    margin-left: 20px;
+    position: absolute;
+    padding: 0px;
+    width: 335px;
+    height: 199px;
+}
+.card3
+{
+    margin-top: 450px;
+    margin-left: 20px;
+    position: absolute;
+    padding: 0px;
+    width: 335px;
+    height: 199px;
+}
+.card4
+{
+    margin-top: 670px;
+    margin-left: 20px;
+    position: absolute;
+    padding: 0px;
+    width: 335px;
+    height: 199px;
+}
+.card5
+{
+    margin-top: 890px;
+    margin-left: 20px;
+    position: absolute;
+    padding: 0px;
+    width: 335px;
+    height: 199px;
+}
+.card6
+{
+    margin-top: 1110px;
+    margin-left: 20px;
+    position: absolute;
+    padding: 0px;
+    width: 335px;
+    height: 199px;
+}
+.card1 .container
+{
+    padding-left: 10px;
+}
+.card2 .container
+{
+    padding-left: 10px;
+}
+.card3 .container
+{
+    padding-left: 10px;
+}
+.card4 .container
+{
+    padding-left: 10px;
+}
+.card5 .container
+{
+    padding-left: 10px;
+}
+.card6 .container
+{
+    padding-left: 10px;
+}
+.section1 a 
+{
+    display: none;
+}
+.article2
+{
+    margin-top: 570px;
+    margin-left: 0px;
+    width: 395px;
+    height: 650px;
+    display: flex;
+    border-radius: 0px;
+    flex-direction: column;
+}
+.article2 h1
+{
+    margin-left: 0px;
+}
+
+.card7
+{
+    margin: 0px;
+    width: 334px;
+    margin-left: 20px;
+    position: absolute;
+}
+.card7 .container
+{
+    width: 197px;
+}
+.pop1
+{
+    margin-top: 100px;
+}
+.pop2
+{
+    margin-top: 270px;
+}
+.pop3
+{
+    margin-top: 440px;
+}
+.section2
+{
+    margin-top: 2700px;
+}
+.card8
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.card8 article 
+{
+    margin-bottom: 24px;
+}
+.card8 img 
+{
+    width: 334px;
+    height: 134px;
+}
+
+footer
+{
+    margin-top: 3740px;
+    width: 397px;
+    height: 501px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+}
+#colonne1
+{
+    padding-left: 33px;
+    margin-left: 0px;
+}
+#colonne2
+{
+    margin-left: 0px;
+    padding-left: 33px;
+    margin-top: 207px;
+}
+#colonne3
+{
+    margin-top: 349px;
+    margin-left: 0px;
+    padding-left: 33px;
+}
+}

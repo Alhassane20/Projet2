@@ -1,0 +1,174 @@
+@media screen and (max-width: 991px)
+{
+
+#liens
+{
+    position: absolute;
+    margin-left: 700px;
+}
+#liens a:hover
+{
+    color: black;
+}
+.element1
+{
+    font-weight: 400;
+}
+#liens a:hover
+{
+    border: 0px;
+}
+#Recherche i
+{
+    width: 40px;
+}
+.Economique
+{
+    margin-right: 25px;
+    width: 140px;
+    font-size: 15px;
+    border: solid 2px rgb(211, 211, 211);
+}
+.Familial
+{
+    margin-right: 25px;
+    width: 110px;
+    font-size: 15px;
+    border: solid 2px rgb(211, 211, 211);
+}
+.Romantique
+{
+    margin-right: 25px;
+    width: 130px;
+    font-size: 15px;
+    border: solid 2px rgb(211, 211, 211);
+}
+.Animaux
+{
+    margin-right: 25px;
+    width: 180px;
+    font-size: 15px;
+    border: solid 2px rgb(211, 211, 211);
+}
+.article1
+{
+    width: 890px;
+}
+
+.article2
+{
+    position: absolute;
+    margin-top: 1130px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 890px;
+    height: 278px;
+}
+.article2 h1
+{
+    padding-left: 10px;
+}
+.article2 .diagram
+{
+    margin-left: 835px;
+}
+
+.card7
+{
+    margin-top: 100px;
+    width: 252px;
+    margin-right: 0px;
+    padding-right: 0px;
+    font-size: 14px;
+}
+
+.card7 img
+{
+    width: 106px;
+    height: 144px;
+    padding: 0px;
+    margin: 0px;
+}
+.container h4
+{
+    padding-right: 10px;
+}
+.card7 .container
+{
+    margin-left: 120px;
+    padding: 0px;
+    width: 120px;
+}
+.container .etoiles2
+{
+    margin-top: 40px;
+}
+.container .etoiles3
+{
+    margin-top: 25px;
+}
+
+.section2
+{
+    position: absolute;
+    margin-top: 1500px;
+}
+.article2 h1
+{
+    margin-left: 40px;
+    position: absolute;
+}
+.pop3
+{
+    margin-right: 40px;
+}
+.card8
+{
+    column-gap: 4px;
+}
+.card8 img
+{
+    width: 182px;
+    height: 211px;
+}
+.card8 article
+{
+    height: 270px;
+}
+footer
+{
+    margin-top: 1930px;
+    padding: 0px;
+    margin-right: 25px;
+    width: 890px;
+    height: 225px;
+}
+footer .titre
+{
+    font-size: 18px;
+}
+footer td
+{
+    font-size: 16px;
+}
+#colonne1
+{
+    margin-top: 45px;
+    margin-left: 70px;
+    padding: 0px;
+}
+#colonne2
+{
+    margin-top: 45px;
+    padding-left: 0px;
+    margin-left: 380px;
+}
+#colonne3
+{
+    margin-top: 45px;
+    padding-left: 0px;
+    margin-left: 620px;
+}
+
+}

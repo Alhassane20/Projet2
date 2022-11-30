@@ -1,0 +1,795 @@
+/* HEADER */
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#Bookilogo
+{
+    margin-left: 55px;
+    padding-top: 44px;
+}
+#Bookilogo img
+{
+    height: 19px;
+    width: 61,09px;
+}
+#liens
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1200px;
+    position: absolute;
+}
+
+.element2
+{
+    border-spacing: 30px;
+    padding-top: 48px;
+    width: 63px;
+    height: 19px;
+    font-weight:400;
+}
+.element1
+{
+    padding-right: 67px;
+    border-spacing: 30px;
+    padding-top: 48px;
+    width: 113px;
+    height: 19px;
+    font-weight:500;
+}
+
+#liens a 
+{
+    text-decoration: none;
+    color: black;
+    
+}
+#liens a:hover
+{
+    color: #0065FC;
+    border-top: solid;
+    border-color: #0065FC;
+    padding-top: 53px;
+}
+
+/* NAV */
+
+nav h1
+{
+    width: 600px;
+    font-size: 22px;
+    height: 26px;
+    margin-left: 55px;
+    margin-top: 80px;
+    font-weight:700;
+    position: absolute;
+}
+nav p
+{
+    margin-left: 55px;
+    margin-top: 115px;
+    width: 296px;
+    height: 19px;
+    font-weight:400;
+    position: absolute;
+}
+form
+{
+    margin-left: 60px;
+    position: absolute;
+}
+#Recherche
+{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 160px;
+    position: absolute;
+}
+#Recherche i.fa-location-dot
+{
+    border-style: solid;
+    border-color: #F2F2F2;
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 50px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Recherche .search_icon
+{
+    display: none;
+}
+#Recherche .Endroit
+{
+    border-color: #F2F2F2;
+    height: 44px;
+}
+#Recherche .bouton
+{
+    background-color: #0065FC;
+    color: white;
+    border-color: #0065FC;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 132px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+#Recherche input
+{
+    border: 1px;
+    border-style: solid;
+    border-color: #F2F2F2;
+}
+#Filtres
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 6px;
+    position: absolute;
+}
+#Filtres a
+{
+    text-decoration: none;
+    color: black;
+}
+#Filtres p
+{
+    margin-right: 30px;
+    margin-left: 62px;
+    font-weight: 700;
+    width: 54px;
+    height: 21px;
+    margin-top: 255px;
+}
+#Filtres i
+{
+    color: #0065FC;
+}
+.Economique:hover
+{
+    background-color: #DEEBFF;
+}
+.Familial:hover
+{
+    background-color: #DEEBFF;
+}
+.Romantique:hover
+{
+    background-color: #DEEBFF;
+}
+.Animaux:hover
+{
+    background-color: #DEEBFF;
+}
+.Economique
+{
+    border: 3px;
+    border-style: solid;
+    border-color: #e2e2e2;
+    border-radius: 40px;
+    text-align: center;
+    height: 30px;
+    width: 160px;
+    line-height: 30px;
+    margin-top: 242px;
+    margin-right: 45px;
+    margin-left: 155px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: 700;
+    font-family: raleway;
+    font-style: normal;
+    font-size: 17px;
+}
+.Economique a
+{
+    padding-left: 10px;
+}
+.Familial
+{
+    border: 3px;
+    border-style: solid;
+    border-color: #e2e2e2;
+    border-radius: 40px;
+    height: 30px;
+    width: 130px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 242px;
+    margin-right: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: 700;
+    font-family: raleway;
+    font-style: normal;
+    font-size: 17px;
+}
+.Familial a
+{
+    padding-left: 10px;
+}
+.Romantique
+{
+    border: 3px;
+    border-style: solid;
+    border-color: #e2e2e2;
+    border-radius: 40px;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    margin-top: 242px;
+    margin-right: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 30px;
+    font-size: 17px;
+}
+.Romantique a
+{
+    padding-left: 10px;
+}
+.Animaux
+{
+    border: 3px;
+    border-style: solid;
+    border-color: #e2e2e2;
+    border-radius: 40px;
+    height: 30px;
+    line-height: 30px;
+    width: 200px;
+    text-align: center;
+    margin-top: 242px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: 700;
+    font-size: 17px;
+}
+.Animaux a 
+{
+    padding-left: 10px;
+}
+
+/* ASIDE */
+
+aside
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    position: absolute;
+    margin-top: 300px;
+}
+aside i
+{
+    margin-top: 3px;
+    margin-left: 9px;
+    color: #0065FC;
+}
+#cercle
+{
+    border: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: #DEEBFF;
+    width: 24px;
+    height: 24px;
+    margin-top: 38px;
+    position: absolute;
+}
+aside p
+{
+    margin-left: 42px;
+    margin-top: 42px;
+    font-weight: 400;
+}
+
+/* SECTION */
+.section1 a
+{
+    margin-top: 800px;
+    margin-left: 55px;
+}
+.article1
+{
+    position: absolute;
+    margin-top: 406px;
+    margin-left: 50px;
+    width: 890px;
+    height: 645px;
+    border: 0px;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+}
+.article1 article
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.article1 h1
+{
+    padding-left: 40px;
+    margin-top: 42px;
+}
+.card1
+{
+    margin-top: 10px;
+    margin-left: 40px;
+    position: absolute;
+    border: 5px;
+    border-color: white;
+    border-style: solid;
+    background-color: white;
+    border-radius: 20px;
+    width: 246px;
+    height: 199px;
+    cursor: pointer;
+    box-shadow: 0 0 10px -3px gray;
+}
+.card1 .container
+{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.card1 img
+{
+    width: 246px;
+    height: 124px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card1 h4
+{
+    position: absolute;
+    margin: 0px;
+    padding-left: 16px;
+}
+.card1 p
+{
+    padding-left: 16px;
+    position: absolute;
+    margin: 0px;
+    padding-top: 20px;
+}
+.article1 .etoiles
+{
+    margin-top: 50px;
+    margin-left: 16px;
+    position: absolute;
+}
+.etoiles i
+{
+    font-size: 13px;
+    color: #0065FC;
+}
+
+.etoiles .gray {
+
+    font-size: 13px;
+    color: #F2F2F2;
+}
+
+.card2
+{
+    margin-top: 10px;
+    margin-left: 317px;
+    position: absolute;
+    border: 5px;
+    border-color: white;
+    border-style: solid;
+    background-color: white;
+    border-radius: 20px;
+    width: 246px;
+    height: 199px;
+    cursor: pointer;
+    box-shadow: 0 0 10px -3px gray;
+}
+.card2 .container
+{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.card2 h4
+{
+    padding-left: 16px;
+    position: absolute;
+    margin: 0px;
+}
+.card2 img
+{
+    width: 246px;
+    height: 124px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card2 p
+{
+    padding-left: 16px;
+    position: absolute;
+    margin: 0px;
+    padding-top: 20px;
+}
+.card3
+{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 594px;
+    border: 5px;
+    border-color: white;
+    border-style: solid;
+    background-color: white;
+    border-radius: 20px;
+    width: 246px;
+    height: 199px;
+    cursor: pointer;
+    box-shadow: 0 0 10px -3px gray;
+}
+.card3 .container
+{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.card3 img
+{
+    width: 246px;
+    height: 124px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card3 h4
+{
+    padding-left: 16px;
+    position: absolute;
+    margin: 0px;
+}
+.card3 p
+{
+    padding-left: 16px;
+    position: absolute;
+    margin: 0px;
+    padding-top: 20px;
+}
+.card4
+{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 40px;
+    border: 5px;
+    border-color: white;
+    border-style: solid;
+    background-color: white;
+    border-radius: 20px;
+    width: 246px;
+    height: 199px;
+    cursor: pointer;
+    box-shadow: 0 0 10px -3px gray;
+}
+.card4 .container
+{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.card4 img
+{
+    width: 246px;
+    height: 124px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card4 h4
+{
+    padding-left: 16px;
+    position: absolute;
+    margin: 0px;
+}
+.card4 p
+{
+    padding-left: 16px;
+    position: absolute;
+    margin: 0px;
+    padding-top: 20px;
+}
+.card5
+{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 317px;
+    border: 5px;
+    border-color: white;
+    border-style: solid;
+    background-color: white;
+    border-radius: 20px;
+    width: 246px;
+    height: 199px;
+    cursor: pointer;
+    box-shadow: 0 0 10px -3px gray;
+}
+.card5 .container
+{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.card5 img
+{
+    width: 246px;
+    height: 124px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card5 h4
+{
+    padding-left: 16px;
+    position: absolute;
+    margin: 0px;
+}
+.card5 p
+{
+    padding-left: 16px;
+    position: absolute;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.card6
+{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 594px;
+    border: 5px;
+    border-color: white;
+    border-style: solid;
+    background-color: white;
+    border-radius: 20px;
+    width: 246px;
+    height: 199px;
+    cursor: pointer;
+    box-shadow: 0 0 10px -3px gray;
+}
+.card6 .container
+{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.card6 img
+{
+    width: 246px;
+    height: 124px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card6 h4
+{
+    padding-left: 16px;
+    position: absolute;
+    margin: 0px;
+}
+.card6 p
+{
+    padding-left: 16px;
+    position: absolute;
+    margin: 0px;
+    padding-top: 20px;
+}
+.card6
+{
+    margin-right: 90px;
+    position: absolute;
+}
+.section1 a
+{
+    margin-top: 1000px;
+    margin-left: 90px;
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+.article2
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 406px;
+    margin-left: 980px;
+    border: 0px;
+    border-style: solid;
+    border-radius: 20px;
+    width: 470px;
+    height: 645px;
+    background-color: #F2F2F2;
+}
+.article2 h1
+{
+    padding-left: 37px;
+    margin-top: 42px;
+    padding-bottom: 10px;
+}
+.article2 .diagram
+{
+    margin-left: 385px;
+    margin-top: 46px;
+    width: 18px;
+    height: 16px;
+    color: #0065FC;
+    position: absolute;
+}
+.card7
+{
+    display: flex;
+    margin-bottom: 33px;
+    margin-left: 50px;
+    margin-right: 70px;
+    border: 5px;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    border-radius: 20px;
+    height: 144px;
+    cursor: pointer;
+    width: 343px;
+    box-shadow: 0 0 10px -3px gray;
+}
+.card7 .container
+{
+    position: absolute;
+    padding-left: 140px;
+    width: 170px;
+}
+.card7 img
+{
+    width: 137px;
+    height: 144px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.card7 h4
+{
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+
+}
+.card7 p
+{
+    margin-top: 7px;
+}
+
+.container .etoiles2
+{
+    font-size: 12px;
+    margin-top: 45px;
+    justify-content: space-between;
+}
+.etoiles2 i
+{
+    color: #0065FC;
+}
+.etoiles2 .gray 
+{
+    color: #F2F2F2;
+}
+.container .etoiles4
+{
+    margin-top: 63px;
+}
+
+.section2
+{
+    margin-top: 1092px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+.section2 h1
+{
+    margin-left: 50px;
+    width: 240px;
+    position: absolute;
+}
+.card8
+{
+    display: flex;
+    height: 444px;
+    margin-top: 80px;
+    column-gap: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.card8 article
+{
+    border: 2px;
+    border-style: solid;
+    border-color: #F2F2F2;
+    border-radius: 20px;
+    margin-right: 43px;
+    box-shadow: 0 0 10px -3px gray;
+}
+.card8 img
+{
+    width: 302px;
+    height: 389px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.card8 h4
+{
+    margin-top: 12px;
+}
+article .container
+{
+    margin-left: 19px;
+}
+
+.star-gray {
+    color: gray;
+}
+
+footer
+{
+    margin-top: 1700px;
+    margin-left: 48px;
+    padding-left: 70px;
+    padding-top: 45px;
+    background-color: #F2F2F2;
+    height: 200px;
+    width: 1345px;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+}
+footer .titre
+{
+    padding-bottom: 20px;
+}
+footer td
+{
+    padding-bottom: 12px;
+}
+#colonne1
+{
+    margin-left: 20px;
+    position: absolute;
+}
+#colonne2
+{
+    position: absolute;
+    margin-left: 500px;
+}
+#colonne3
+{
+    position: absolute;
+    margin-left: 880px;
+}
