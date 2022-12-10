@@ -3,7 +3,9 @@
 body
 {
     font-family: 'Raleway', sans-serif;
-    position: absolute;
+    max-width: 1400px;
+    width: 100%;
+
 }
 
 header
@@ -12,6 +14,9 @@ header
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
+    width: 1400px;
+    width: 100%;
+    max-width: 1400px;
 }
 
 #Bookilogo
@@ -24,18 +29,16 @@ header
     height: 19px;
     width: 61,09px;
 }
-#liens
+nav
 {
     display: flex;
     flex-direction: row;
-    margin-left: 1200px;
-    position: absolute;
 }
 
 .element2
 {
     border-spacing: 30px;
-    padding-top: 48px;
+    padding-top: 0px;
     width: 63px;
     height: 19px;
     font-weight:400;
@@ -44,19 +47,19 @@ header
 {
     padding-right: 67px;
     border-spacing: 30px;
-    padding-top: 48px;
+    padding-top: 0px;
     width: 113px;
     height: 19px;
     font-weight:500;
 }
 
-#liens a 
+nav a 
 {
     text-decoration: none;
     color: black;
     
 }
-#liens a:hover
+nav a:hover
 {
     color: #0065FC;
     border-top: solid;
@@ -64,41 +67,37 @@ header
     padding-top: 53px;
 }
 
-/* NAV */
-
-nav h1
+.section0
 {
-    width: 600px;
+    width: 810px;
+}
+.section0 h1
+{
     font-size: 22px;
     height: 26px;
     margin-left: 55px;
     margin-top: 80px;
     font-weight:700;
-    position: absolute;
 }
-nav p
+.section0 p
 {
     margin-left: 55px;
-    margin-top: 115px;
-    width: 296px;
     height: 19px;
     font-weight:400;
-    position: absolute;
+}
+
+.section3
+{
+    margin-left: 55px;
 }
 form
-{
-    margin-left: 60px;
-    position: absolute;
-}
-#Recherche
 {
     height: 40px;
     display: flex;
     flex-direction: row;
-    margin-top: 160px;
-    position: absolute;
+    margin-left: 0px;
 }
-#Recherche i.fa-location-dot
+form i.fa-location-dot
 {
     border-style: solid;
     border-color: #F2F2F2;
@@ -111,16 +110,16 @@ form
     align-items: center;
     justify-content: center;
 }
-#Recherche .search_icon
+form .search_icon
 {
     display: none;
 }
-#Recherche .Endroit
+form .Endroit
 {
     border-color: #F2F2F2;
     height: 44px;
 }
-#Recherche .bouton
+form .bouton
 {
     background-color: #0065FC;
     color: white;
@@ -133,7 +132,7 @@ form
     font-size: 15px;
 
 }
-#Recherche input
+form input
 {
     border: 1px;
     border-style: solid;
@@ -144,8 +143,7 @@ form
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin-top: 6px;
-    position: absolute;
+    width: 1324px;
 }
 #Filtres a
 {
@@ -154,12 +152,10 @@ form
 }
 #Filtres p
 {
-    margin-right: 30px;
-    margin-left: 62px;
     font-weight: 700;
     width: 54px;
     height: 21px;
-    margin-top: 255px;
+    margin-top: 55px;
 }
 #Filtres i
 {
@@ -191,9 +187,9 @@ form
     height: 30px;
     width: 160px;
     line-height: 30px;
-    margin-top: 242px;
+    margin-top: 40px;
     margin-right: 45px;
-    margin-left: 155px;
+    margin-left: 50px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 6px;
@@ -217,7 +213,7 @@ form
     width: 130px;
     text-align: center;
     line-height: 30px;
-    margin-top: 242px;
+    margin-top: 40px;
     margin-right: 45px;
     padding-left: 10px;
     padding-right: 10px;
@@ -241,7 +237,7 @@ form
     height: 30px;
     width: 150px;
     text-align: center;
-    margin-top: 242px;
+    margin-top: 40px;
     margin-right: 45px;
     padding-left: 10px;
     padding-right: 10px;
@@ -266,7 +262,7 @@ form
     line-height: 30px;
     width: 200px;
     text-align: center;
-    margin-top: 242px;
+    margin-top: 40px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 6px;
@@ -285,9 +281,9 @@ aside
 {
     display: flex;
     flex-direction: row;
-    margin-left: 60px;
-    position: absolute;
-    margin-top: 300px;
+    margin-top: 0px;
+    margin-left: 59px;
+    width: 934px;
 }
 aside i
 {
@@ -314,39 +310,37 @@ aside p
 }
 
 /* SECTION */
-.section1 a
+.section1
 {
-    margin-top: 800px;
-    margin-left: 55px;
+    display: flex;
+    width: 1340px;
+    margin-top: 39px;
 }
 .article1
 {
-    position: absolute;
-    margin-top: 406px;
     margin-left: 50px;
-    width: 890px;
+    width: 880px;
     height: 645px;
     border: 0px;
     border-style: solid;
     border-radius: 20px;
     background-color: #F2F2F2;
 }
-.article1 article
-{
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-}
+
 .article1 h1
 {
     padding-left: 40px;
     margin-top: 42px;
 }
+#cartes
+{
+    display: grid;
+    grid-template-columns: 246px 246px 246px;
+    grid-gap: 31px;
+    justify-content: center;
+}
 .card1
 {
-    margin-top: 10px;
-    margin-left: 40px;
-    position: absolute;
     border: 5px;
     border-color: white;
     border-style: solid;
@@ -400,232 +394,26 @@ aside p
     color: #F2F2F2;
 }
 
-.card2
+#lien
 {
-    margin-top: 10px;
-    margin-left: 317px;
-    position: absolute;
-    border: 5px;
-    border-color: white;
-    border-style: solid;
-    background-color: white;
-    border-radius: 20px;
-    width: 246px;
-    height: 199px;
-    cursor: pointer;
-    box-shadow: 0 0 10px -3px gray;
+    margin-left: 44px;
+    margin-top: 40px;
 }
-.card2 .container
+#lien a
 {
-    margin-left: 0px;
-    padding-left: 0px;
-}
-.card2 h4
-{
-    padding-left: 16px;
-    position: absolute;
-    margin: 0px;
-}
-.card2 img
-{
-    width: 246px;
-    height: 124px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.card2 p
-{
-    padding-left: 16px;
-    position: absolute;
-    margin: 0px;
-    padding-top: 20px;
-}
-.card3
-{
-    position: absolute;
-    margin-top: 10px;
-    margin-left: 594px;
-    border: 5px;
-    border-color: white;
-    border-style: solid;
-    background-color: white;
-    border-radius: 20px;
-    width: 246px;
-    height: 199px;
-    cursor: pointer;
-    box-shadow: 0 0 10px -3px gray;
-}
-.card3 .container
-{
-    margin-left: 0px;
-    padding-left: 0px;
-}
-.card3 img
-{
-    width: 246px;
-    height: 124px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.card3 h4
-{
-    padding-left: 16px;
-    position: absolute;
-    margin: 0px;
-}
-.card3 p
-{
-    padding-left: 16px;
-    position: absolute;
-    margin: 0px;
-    padding-top: 20px;
-}
-.card4
-{
-    position: absolute;
-    margin-top: 250px;
-    margin-left: 40px;
-    border: 5px;
-    border-color: white;
-    border-style: solid;
-    background-color: white;
-    border-radius: 20px;
-    width: 246px;
-    height: 199px;
-    cursor: pointer;
-    box-shadow: 0 0 10px -3px gray;
-}
-.card4 .container
-{
-    margin-left: 0px;
-    padding-left: 0px;
-}
-.card4 img
-{
-    width: 246px;
-    height: 124px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.card4 h4
-{
-    padding-left: 16px;
-    position: absolute;
-    margin: 0px;
-}
-.card4 p
-{
-    padding-left: 16px;
-    position: absolute;
-    margin: 0px;
-    padding-top: 20px;
-}
-.card5
-{
-    position: absolute;
-    margin-top: 250px;
-    margin-left: 317px;
-    border: 5px;
-    border-color: white;
-    border-style: solid;
-    background-color: white;
-    border-radius: 20px;
-    width: 246px;
-    height: 199px;
-    cursor: pointer;
-    box-shadow: 0 0 10px -3px gray;
-}
-.card5 .container
-{
-    margin-left: 0px;
-    padding-left: 0px;
-}
-.card5 img
-{
-    width: 246px;
-    height: 124px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.card5 h4
-{
-    padding-left: 16px;
-    position: absolute;
-    margin: 0px;
-}
-.card5 p
-{
-    padding-left: 16px;
-    position: absolute;
-    margin: 0px;
-    padding-top: 20px;
-}
-
-.card6
-{
-    position: absolute;
-    margin-top: 250px;
-    margin-left: 594px;
-    border: 5px;
-    border-color: white;
-    border-style: solid;
-    background-color: white;
-    border-radius: 20px;
-    width: 246px;
-    height: 199px;
-    cursor: pointer;
-    box-shadow: 0 0 10px -3px gray;
-}
-.card6 .container
-{
-    margin-left: 0px;
-    padding-left: 0px;
-}
-.card6 img
-{
-    width: 246px;
-    height: 124px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.card6 h4
-{
-    padding-left: 16px;
-    position: absolute;
-    margin: 0px;
-}
-.card6 p
-{
-    padding-left: 16px;
-    position: absolute;
-    margin: 0px;
-    padding-top: 20px;
-}
-.card6
-{
-    margin-right: 90px;
-    position: absolute;
-}
-.section1 a
-{
-    margin-top: 1000px;
-    margin-left: 90px;
-    position: absolute;
     color: black;
     text-decoration: none;
     font-weight: 700;
 }
 .article2
 {
-    position: absolute;
     display: flex;
     flex-direction: column;
-    margin-top: 406px;
-    margin-left: 980px;
+    margin-left: 40px;
     border: 0px;
     border-style: solid;
     border-radius: 20px;
-    width: 470px;
+    width: 420px;
     height: 645px;
     background-color: #F2F2F2;
 }
@@ -637,19 +425,22 @@ aside p
 }
 .article2 .diagram
 {
-    margin-left: 385px;
-    margin-top: 46px;
+    margin-left: 150px;
+    margin-top: 42px;
     width: 18px;
     height: 16px;
     color: #0065FC;
-    position: absolute;
+    position: relative;
+}
+#titre 
+{
+    display: flex;
 }
 .card7
 {
     display: flex;
     margin-bottom: 33px;
-    margin-left: 50px;
-    margin-right: 70px;
+    margin-left: 30px;
     border: 5px;
     border-style: solid;
     border-color: white;
@@ -706,10 +497,11 @@ aside p
 
 .section2
 {
-    margin-top: 1092px;
-    position: absolute;
+
     display: flex;
     flex-direction: row;
+    width: 1088px;
+    margin-top: 60px;
 }
 .section2 h1
 {
@@ -722,9 +514,9 @@ aside p
     display: flex;
     height: 444px;
     margin-top: 80px;
-    column-gap: 20px;
     margin-left: 50px;
     cursor: pointer;
+    column-gap: 43px;
 }
 .card8 article
 {
@@ -732,7 +524,6 @@ aside p
     border-style: solid;
     border-color: #F2F2F2;
     border-radius: 20px;
-    margin-right: 43px;
     box-shadow: 0 0 10px -3px gray;
 }
 .card8 img
@@ -759,13 +550,13 @@ article .container
 
 footer
 {
-    margin-top: 1700px;
     margin-left: 48px;
+    margin-top: 61px;
     padding-left: 70px;
     padding-top: 45px;
     background-color: #F2F2F2;
-    height: 200px;
-    width: 1345px;
+    height: 225px;
+    width: 1339px;
     text-align: justify;
     display: flex;
     flex-direction: row;
@@ -781,15 +572,15 @@ footer td
 #colonne1
 {
     margin-left: 20px;
-    position: absolute;
+
 }
 #colonne2
 {
-    position: absolute;
-    margin-left: 500px;
+
+    margin-left: 347px;
 }
 #colonne3
 {
-    position: absolute;
-    margin-left: 880px;
+
+    margin-left: 239px;
 }

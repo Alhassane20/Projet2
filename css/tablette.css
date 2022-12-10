@@ -1,12 +1,27 @@
-@media screen and (max-width: 991px)
+@media screen and (max-width: 1024px)
 {
-
-#liens
+body
 {
-    position: absolute;
-    margin-left: 700px;
+    width: 1024px;
+    width: 100%;
 }
-#liens a:hover
+header
+{
+    width: 1024px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#Bookilogo
+{
+    margin-left: 72px;
+}
+nav
+{
+    margin-left: 575px;
+}
+
+nav a:hover
 {
     color: black;
 }
@@ -14,14 +29,16 @@
 {
     font-weight: 400;
 }
-#liens a:hover
+nav a:hover
 {
     border: 0px;
 }
-#Recherche i
+
+.section0
 {
-    width: 40px;
+    margin-left: 17px;
 }
+
 .Economique
 {
     margin-right: 25px;
@@ -50,37 +67,56 @@
     font-size: 15px;
     border: solid 2px rgb(211, 211, 211);
 }
+.section3 form 
+{
+    margin-left: 18px;
+}
+#Filtres 
+{
+    margin-left: 17px;
+}
+aside 
+{
+    margin-left: 72px;
+}
+.section1
+{
+    display: flex;
+    flex-direction: column;
+}
 .article1
 {
-    width: 890px;
+    width: 880px;
+    margin-left: 72px;
 }
 
 .article2
 {
-    position: absolute;
-    margin-top: 1130px;
-    margin-left: 50px;
-    display: flex;
-    flex-direction: row;
-    width: 890px;
+    margin-top: 53px;
+    margin-left: 70px;
+    width: 883px;
     height: 278px;
 }
 .article2 h1
 {
-    padding-left: 10px;
+    padding-left: 0px;
 }
+
 .article2 .diagram
 {
-    margin-left: 835px;
+    margin-left: 825px;
+}
+#carte2
+{
+    display: flex;
+    flex-direction: row;
 }
 
 .card7
 {
-    margin-top: 100px;
     width: 252px;
-    margin-right: 0px;
-    padding-right: 0px;
     font-size: 14px;
+    margin-top: 26px;
 }
 
 .card7 img
@@ -111,8 +147,7 @@
 
 .section2
 {
-    position: absolute;
-    margin-top: 1500px;
+    margin-top: 70px;
 }
 .article2 h1
 {
@@ -123,25 +158,33 @@
 {
     margin-right: 40px;
 }
+
+.section2 h1
+{
+    margin-left: 81px;
+}
 .card8
 {
-    column-gap: 4px;
+    column-gap: 50px;
+    margin-left: 73px;
+    height: 331px;
 }
 .card8 img
 {
-    width: 182px;
     height: 211px;
+    width: 182px;
 }
 .card8 article
 {
     height: 270px;
+    width: 182px;
 }
 footer
 {
-    margin-top: 1930px;
+    margin-top: 69px;
     padding: 0px;
-    margin-right: 25px;
-    width: 890px;
+    margin-left: 74px;
+    width: 879px;
     height: 225px;
 }
 footer .titre
@@ -161,14 +204,14 @@ footer td
 #colonne2
 {
     margin-top: 45px;
-    padding-left: 0px;
-    margin-left: 380px;
+    margin-left: 81px;
+
 }
 #colonne3
 {
     margin-top: 45px;
-    padding-left: 0px;
-    margin-left: 620px;
+    margin-left: 82px;
+
 }
 
 }
