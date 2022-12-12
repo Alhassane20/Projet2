@@ -1,20 +1,30 @@
-@media screen and (max-width: 767px) {
-    body
+@media screen and (max-width: 375px) {
+    body 
     {
-        width: 375;
         width: 100%;
+        margin: 0px;
+        font-family: 'Raleway', sans-serif;
     }
-    header
+
+    header 
     {
         height: 130px;
         width: 375px;
         width: 100%;
     }
-    #Bookilogo
+
+    #Bookilogo 
     {
-        margin-left: 157px;
+        display: flex;
+        justify-content: center;
+        margin-top: 21px;
     }
-    nav
+
+    #Bookilogo img {
+        width: 61px;
+    }
+
+    nav 
     {
         margin: 0px;
         margin-top: 48px;
@@ -25,22 +35,34 @@
         justify-content: center;
         width: 100%;
     }
-    
-    .element1:hover
+
+    nav a 
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+    .element1:hover 
     {
         border-bottom: solid;
         border-color: #0065FC;
         color: #0065FC;
     }
-    
-    .element2:hover
+
+    .element2:hover 
     {
         border-bottom: solid;
         border-color: #0065FC;
         color: #0065FC;
     }
-    
-    .element1
+
+    nav a:hover 
+    {
+        color: #0065FC;
+    }
+
+
+    .element1 
     {
         padding: 0;
         width: 50%;
@@ -48,8 +70,8 @@
         height: 100%;
         padding-bottom: 24px;
     }
-    
-    .element2
+
+    .element2 
     {
         width: 50%;
         padding: 0;
@@ -57,248 +79,543 @@
         text-align: center;
         padding-bottom: 24px;
     }
-    .section0
+
+    .section0 
+    {
+        margin-left: 0px;
+        margin-top: 31px;
+        width: 100%;
+    }
+
+    .section0 h1 
     {
         margin-left: 20px;
-        width: 298px;
+        margin-top: 0px;
+        font-weight: 700;
     }
-    .section0 h1
-    {
-        margin-left: 0px;
-        margin-top: 57px;
-    }
+
     .section0 p 
     {
-        margin-left: 0px;
-        margin-top: 30px;
+        margin-left: 20px;
+        margin-top: 13px;
     }
-    .section3
+
+    .section3 
     {
         margin-top: 36px;
         margin-left: 0px;
         padding-left: 0px;
+        width: 100%;
     }
-    .section3 i.fa-location-dot
+
+    .section3 i.fa-location-dot 
     {
         width: 50px;
     }
-    .section3 .Endroit
+
+    .section3 .Endroit 
     {
         width: 232px;
     }
-    .section3 .search_icon
+
+    .section3 .search_icon 
     {
         display: inline;
     }
-    .section3 .bouton
+
+    .section3 .bouton 
     {
         width: 49px;
         height: 49px;
     }
-    .section3 .search_text
+
+    .section3 .search_text 
     {
         display: none;
     }
+
+    form 
+    {
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+    }
+
+    form i.fa-location-dot 
+    {
+        border-style: solid;
+        border-color: #F2F2F2;
+        background-color: #F2F2F2;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        width: 50px;
+        height: 42px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 22px;
+    }
+
+    form .Endroit 
+    {
+        border-color: #F2F2F2;
+        height: 44px;
+    }
+
+    form .bouton 
+    {
+        background-color: #0065FC;
+        color: white;
+        border-color: #0065FC;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 132px;
+        height: 48px;
+        font-weight: 700;
+        font-size: 15px;
+
+    }
+
+    form input 
+    {
+        border: 1px;
+        border-style: solid;
+        border-color: #F2F2F2;
+    }
+
     #Filtres
     {
-        margin-left: 0px;
+        flex-wrap: nowrap;
+    }
+    #Filtres a
+    {
+        text-decoration: none;
+        color: black;
     }
     #Filtres p
     {
+        font-weight: 700;
+        width: 54px;
+        height: 21px;
+        margin-top: 55px;
         margin-left: 20px;
-        margin-top: 34px;
+    }
+    #Filtres i
+    {
+        color: #0065FC;
+    }
+    #typefiltr
+    {
+        display: grid;
+        grid-template-columns: 200px 200px;
+    }
+    .Economique:hover
+    {
+        background-color: #DEEBFF;
+    }
+    .Familial:hover
+    {
+        background-color: #DEEBFF;
+    }
+    .Romantique:hover
+    {
+        background-color: #DEEBFF;
+    }
+    .Animaux:hover
+    {
+        background-color: #DEEBFF;
     }
     .Economique
     {
-        margin-top: 70px;
-        margin-left: 20px;
-        margin-right: 0px;
+        border: 3px;
+        border-style: solid;
+        border-color: #e2e2e2;
+        border-radius: 40px;
+        height: 30px;
+        width: 140px;
+        line-height: 30px;
+        padding-left: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        font-weight: 700;
         font-size: 11px;
-        width: 160px;
-        padding-left: 0px;
-        text-align: justify;
+        margin-left: 20px;
     }
-    .Economique i
+    .Economique a
     {
-        margin-left: 10px;
-        font-size: 16px;
+        padding-left: 10px;
     }
     .Familial
     {
-        margin-top: 70px;
-        margin-left: 14px;
+        border: 3px;
+        border-style: solid;
+        border-color: #e2e2e2;
+        border-radius: 40px;
+        height: 30px;
+        width: 140px;
+        line-height: 30px;
+        padding-left: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        font-weight: 700;
         font-size: 11px;
-        width: 160px;
-        padding-left: 0px;
-        text-align: justify;
     }
-    .Familial i
+    .Familial a
     {
-        margin-left: 10px;
-        font-size: 16px;
+        padding-left: 10px;
     }
     .Romantique
     {
-        margin-top: 387px;
-        margin-left: 20px;
+        border: 3px;
+        border-style: solid;
+        border-color: #e2e2e2;
+        border-radius: 40px;
+        height: 30px;
+        width: 140px;
+        padding-left: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        font-weight: 700;
+        line-height: 30px;
         font-size: 11px;
-        width: 160px;
-        padding-left: 0px;
-        text-align: justify;
+        margin-left: 20px;
+        margin-top: 17px;
     }
-    .Romantique i 
+    .Romantique a
     {
-        margin-left: 10px;
-        font-size: 16px;
+        padding-left: 10px;
     }
     .Animaux
     {
-        margin-top: 387px;
-        margin-left: 207px;
+        border: 3px;
+        border-style: solid;
+        border-color: #e2e2e2;
+        border-radius: 40px;
+        height: 30px;
+        line-height: 30px;
+        width: 140px;
+        padding-left: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        font-weight: 700;
         font-size: 11px;
-        width: 160px;
-        padding-left: 0px;
-        text-align: justify;
+        margin-top: 17px;
     }
-    .Animaux i 
-    {
-        margin-left: 10px;
-        font-size: 16px;
-    }
-    
-    aside
-    {
-        margin-top: 43px;
-        margin-left: 20px;
-        width: 298px;
-        height: 57px;
-    }
-    .section1
-    {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .article1
-    {
-        margin-top: 26px;
-        margin-left: 0px;
-        width: 335px;
-        height: 1500px;
-        background-color: white;
-    }
-    .card1
-    {
-        margin-left: 20px;
-        width: 335px;
-        height: 199px;
-    }
-    .article1 .container h4
-    {
-        padding-left: 0px;
-    }
-    .article1 .container p
-    {
-        padding-left: 0px;
-    }
-    .article1 .etoiles
-    {
-        margin-left: 0px;
-    }
-    
-    .card1 .container
+    .Animaux a 
     {
         padding-left: 10px;
     }
 
-    .section1 a 
+    aside
     {
-        display: none;
-    }
-    .article2
-    {
-        margin-top: 17px;
-        margin-left: 0px;
-        width: 400px;
-        height: 650px;
         display: flex;
-        border-radius: 0px;
-        flex-direction: column;
-    }
-    .article2 h1
-    {
+        flex-direction: row;
+        width: 100%;
+        margin-top: 0px;
         margin-left: 0px;
     }
-    .article2 .diagram
+    aside i
     {
-        margin-left: 350px;
+        margin-top: 3px;
+        margin-left: 9px;
+        color: #0065FC;
     }
-    .card7
+    #cercle
     {
-        margin: 0px;
-        width: 334px;
-        margin-left: 20px;
+        border: 1px;
+        border-style: solid;
+        border-radius: 50%;
+        border-color: #DEEBFF;
+        width: 24px;
+        height: 24px;
+        margin-top: 38px;
         position: absolute;
     }
-    .card7 .container
+    aside p
     {
-        width: 197px;
+        margin-left: 42px;
+        margin-top: 42px;
+        width: 298px;
+        font-weight: 400;
     }
-    .pop1
-    {
-        margin-top: 100px;
-    }
-    .pop2
-    {
-        margin-top: 270px;
-    }
-    .pop3
-    {
-        margin-top: 440px;
-    }
-    .section2
-    {
-        margin-top: 105px;
-    }
-    .card8
-    {
-        display: flex;
-        flex-direction: column;
-        margin-left: 20px;
-    }
-    .card8 article 
-    {
-        margin-bottom: 24px;
-    }
-    .card8 img 
-    {
-        width: 334px;
-        height: 134px;
-    }
-    
-    footer
-    {
+
+    .section1
+{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-top: 17px;
+}
+.article1
+{
+    margin-left: 0px;
+    border: 0px;
+    border-style: solid;
+    border-radius: 20px;;
+}
+#lien a 
+{
+    display: none;
+}
+.article1 h1
+{
+    margin-left: 20px;
+    margin-top: 42px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+#cartes
+{
+    display: flex;
+    flex-direction: column;
+}
+.card1
+{
+    border: 5px;
+    border-color: white;
+    border-style: solid;
+    background-color: white;
+    border-radius: 20px;
+    width: 335px;
+    height: 199px;
+    cursor: pointer;
+    box-shadow: 0 0 10px -3px gray;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+.card1 .container
+{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.card1 img
+{
+    width: 335px;
+    height: 124px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card1 h4
+{
+    position: absolute;
+    margin: 0px;
+    padding-left: 16px;
+}
+.card1 p
+{
+    padding-left: 16px;
+    position: absolute;
+    margin: 0px;
+    padding-top: 20px;
+}
+.article1 .etoiles
+{
+    margin-top: 50px;
+    margin-left: 16px;
+    position: absolute;
+}
+.etoiles i
+{
+    font-size: 13px;
+    color: #0065FC;
+}
+
+.etoiles .gray {
+
+    font-size: 13px;
+    color: #F2F2F2;
+}
+
+#lien
+{
+    margin-left: 44px;
+    margin-top: 40px;
+}
+#lien a
+{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+.article2
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    border: 0px;
+    border-style: solid;
+    border-radius: 0px;
+    width: 375px;
+    height: 645px;
+    background-color: #F2F2F2;
+}
+.article2 h1
+{
+    padding-left: 37px;
+    margin-top: 28px;
+    width: 262px;
+    padding-bottom: 10px;
+}
+.article2 .diagram
+{
+    margin-top: 35px;
+    margin-left: 45px;
+    width: 18px;
+    height: 16px;
+    color: #0065FC;
+}
+#titre 
+{
+    display: flex;
+    flex-direction: row;
+}
+.card7
+{
+    display: flex;
+    margin-bottom: 33px;
+    margin-left: 20px;
+    border: 5px;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    border-radius: 20px;
+    height: 144px;
+    cursor: pointer;
+    width: 334px;
+    box-shadow: 0 0 10px -3px gray;
+}
+.card7 .container
+{
+    position: absolute;
+    padding-left: 140px;
+    width: 170px;
+}
+.card7 img
+{
+    width: 137px;
+    height: 144px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.card7 h4
+{
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+
+}
+.card7 p
+{
+    margin-top: 7px;
+}
+
+.container .etoiles2
+{
+    font-size: 12px;
+    margin-top: 45px;
+    justify-content: space-between;
+}
+.etoiles2 i
+{
+    color: #0065FC;
+}
+.etoiles2 .gray 
+{
+    color: #F2F2F2;
+}
+.container .etoiles4
+{
+    margin-top: 63px;
+}
+
+.section2
+{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 105px;
+    width: 100%;
+}
+.section2 h1
+{
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    width: 210px;
+    position: absolute;
+}
+.card8
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 56px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.card8 article
+{
+    border: 2px;
+    border-style: solid;
+    border-color: #F2F2F2;
+    border-radius: 20px;
+    box-shadow: 0 0 10px -3px gray;
+    margin-top: 24px;
+}
+.card8 img
+{
+    width: 334px;
+    height: 134px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.card8 h4
+{
+    margin-top: 12px;
+}
+article .container
+{
+    margin-left: 19px;
+}
+
+.star-gray {
+    color: gray;
+}
+
+    footer {
         margin-top: 80px;
-        width: 400px;
+        width: 100%;
         height: 501px;
         margin-left: 0px;
         display: flex;
         flex-direction: column;
+        background-color: #F2F2F2;
+        text-align: justify;
     }
-    #colonne1
-    {
-        padding-left: 33px;
-        margin-left: 0px;
+
+    #colonne1 {
+        margin-left: 30px;
+        margin-top: 45px;
     }
-    #colonne2
-    {
-        margin-left: 0px;
-        padding-left: 33px;
-        margin-top: 207px;
+
+    #colonne2 {
+        margin-left: 30px;
+        margin-top: 40px;
     }
-    #colonne3
-    {
-        margin-top: 349px;
-        margin-left: 0px;
-        padding-left: 33px;
+
+    #colonne3 {
+        margin-left: 30px;
+        margin-top: 51px;
     }
-    }
+    footer .titre
+{
+    padding-bottom: 20px;
+}
+footer td
+{
+    padding-bottom: 12px;
+}
+}

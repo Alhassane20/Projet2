@@ -1,9 +1,10 @@
+@media screen and (min-width: 1140px) and (max-width: 1400px)
+{
 /* HEADER */
 
 body
 {
     font-family: 'Raleway', sans-serif;
-    max-width: 1400px;
     width: 100%;
 
 }
@@ -13,7 +14,6 @@ header
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
     width: 1400px;
     width: 100%;
     max-width: 1400px;
@@ -33,6 +33,8 @@ nav
 {
     display: flex;
     flex-direction: row;
+    justify-content: right;
+    width: 87%;
 }
 
 .element2
@@ -42,6 +44,7 @@ nav
     width: 63px;
     height: 19px;
     font-weight:400;
+    margin-top: 48px;
 }
 .element1
 {
@@ -51,13 +54,13 @@ nav
     width: 113px;
     height: 19px;
     font-weight:500;
+    margin-top: 48px;
 }
 
 nav a 
 {
     text-decoration: none;
     color: black;
-    
 }
 nav a:hover
 {
@@ -143,7 +146,12 @@ form input
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: 1324px;
+    width: 80%;
+}
+#typefiltr
+{ 
+    display: flex;
+    flex-direction: row;
 }
 #Filtres a
 {
@@ -319,7 +327,7 @@ aside p
 .article1
 {
     margin-left: 50px;
-    width: 880px;
+    width: 65%;
     height: 645px;
     border: 0px;
     border-style: solid;
@@ -346,7 +354,7 @@ aside p
     border-style: solid;
     background-color: white;
     border-radius: 20px;
-    width: 246px;
+    width: 100%;
     height: 199px;
     cursor: pointer;
     box-shadow: 0 0 10px -3px gray;
@@ -413,7 +421,7 @@ aside p
     border: 0px;
     border-style: solid;
     border-radius: 20px;
-    width: 420px;
+    width: 30%;
     height: 645px;
     background-color: #F2F2F2;
 }
@@ -448,7 +456,7 @@ aside p
     border-radius: 20px;
     height: 144px;
     cursor: pointer;
-    width: 343px;
+    width: 85%;
     box-shadow: 0 0 10px -3px gray;
 }
 .card7 .container
@@ -459,7 +467,7 @@ aside p
 }
 .card7 img
 {
-    width: 137px;
+    width: 40%;
     height: 144px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -500,7 +508,7 @@ aside p
 
     display: flex;
     flex-direction: row;
-    width: 1088px;
+    width: 87%;
     margin-top: 60px;
 }
 .section2 h1
@@ -524,11 +532,13 @@ aside p
     border-style: solid;
     border-color: #F2F2F2;
     border-radius: 20px;
+    width: 100%;
     box-shadow: 0 0 10px -3px gray;
 }
 .card8 img
 {
-    width: 302px;
+
+    width: 285px;
     height: 389px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -556,7 +566,7 @@ footer
     padding-top: 45px;
     background-color: #F2F2F2;
     height: 225px;
-    width: 1339px;
+    width: 87%;
     text-align: justify;
     display: flex;
     flex-direction: row;
@@ -583,4 +593,5 @@ footer td
 {
 
     margin-left: 239px;
+}
 }

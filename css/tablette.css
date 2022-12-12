@@ -1,148 +1,518 @@
-@media screen and (max-width: 1024px)
+@media screen and (min-width: 768px) and (max-width: 1024px)
 {
 body
 {
-    width: 1024px;
     width: 100%;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
 }
+
 header
 {
-    width: 1024px;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 #Bookilogo
 {
     margin-left: 72px;
+    padding-top: 44px;
+}
+#Bookilogo img
+{
+    height: 19px;
+    width: 61,09px;
 }
 nav
 {
-    margin-left: 575px;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 80%;
 }
-
-nav a:hover
+.element2
 {
+    margin-left: 68px;
+}
+nav a 
+{
+    text-decoration: none;
     color: black;
+    
 }
 .element1
 {
     font-weight: 400;
 }
-nav a:hover
+
+.section0 h1
 {
-    border: 0px;
+    font-size: 22px;
+    height: 26px;
+    margin-left: 72px;
+    margin-top: 62px;
+    font-weight:700;
+}
+.section0 p
+{
+    margin-left: 72px;
+    height: 19px;
+    font-weight:400;
 }
 
-.section0
+form
 {
-    margin-left: 17px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 74px;
 }
+form i.fa-location-dot
+{
+    border-style: solid;
+    border-color: #F2F2F2;
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 50px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form .search_icon
+{
+    display: none;
+}
+form .Endroit
+{
+    border-color: #F2F2F2;
+    height: 44px;
+}
+form .bouton
+{
+    background-color: #0065FC;
+    color: white;
+    border-color: #0065FC;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 132px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 15px;
 
+}
+form input
+{
+    border: 1px;
+    border-style: solid;
+    border-color: #F2F2F2;
+}
+#Filtres
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#typefiltr
+{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+#Filtres a
+{
+    text-decoration: none;
+    color: black;
+}
+#Filtres p
+{
+    font-weight: 700;
+    width: 54px;
+    height: 21px;
+    margin-top: 55px;
+    margin-left: 72px;
+}
+#Filtres i
+{
+    color: #0065FC;
+}
+.Economique:hover
+{
+    background-color: #DEEBFF;
+}
+.Familial:hover
+{
+    background-color: #DEEBFF;
+}
+.Romantique:hover
+{
+    background-color: #DEEBFF;
+}
+.Animaux:hover
+{
+    background-color: #DEEBFF;
+}
 .Economique
 {
-    margin-right: 25px;
-    width: 140px;
-    font-size: 15px;
-    border: solid 2px rgb(211, 211, 211);
+    border: 3px;
+    border-style: solid;
+    border-color: #e2e2e2;
+    border-radius: 40px;
+    text-align: center;
+    height: 30px;
+    width: 160px;
+    line-height: 30px;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: 700;
+    font-family: raleway;
+    font-style: normal;
+    font-size: 17px;
+    overflow: hidden;
+}
+.Economique a
+{
+    padding-left: 10px;
 }
 .Familial
 {
-    margin-right: 25px;
-    width: 110px;
-    font-size: 15px;
-    border: solid 2px rgb(211, 211, 211);
+    border: 3px;
+    border-style: solid;
+    border-color: #e2e2e2;
+    border-radius: 40px;
+    height: 30px;
+    width: 130px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 40px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: 700;
+    font-family: raleway;
+    font-style: normal;
+    font-size: 17px;
+    overflow: hidden;
+}
+.Familial a
+{
+    padding-left: 10px;
 }
 .Romantique
 {
-    margin-right: 25px;
-    width: 130px;
-    font-size: 15px;
-    border: solid 2px rgb(211, 211, 211);
+    border: 3px;
+    border-style: solid;
+    border-color: #e2e2e2;
+    border-radius: 40px;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 30px;
+    font-size: 17px;
+    overflow: hidden;
+}
+.Romantique a
+{
+    padding-left: 10px;
 }
 .Animaux
 {
-    margin-right: 25px;
-    width: 180px;
-    font-size: 15px;
-    border: solid 2px rgb(211, 211, 211);
+    border: 3px;
+    border-style: solid;
+    border-color: #e2e2e2;
+    border-radius: 40px;
+    height: 30px;
+    line-height: 30px;
+    width: 200px;
+    text-align: center;
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: 700;
+    font-size: 17px;
+    overflow: hidden;
 }
-.section3 form 
+.Animaux a 
 {
-    margin-left: 18px;
+    padding-left: 10px;
 }
-#Filtres 
+aside
 {
-    margin-left: 17px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
-aside 
+aside i
 {
+    margin-top: 3px;
+    margin-left: 9px;
+    color: #0065FC;
+}
+#cercle
+{
+    border: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: #DEEBFF;
+    width: 24px;
+    height: 24px;
+    margin-top: 50px;
     margin-left: 72px;
+    position: absolute;
 }
+aside p
+{
+    margin-left: 107px;
+    margin-top: 52px;
+    font-weight: 400;
+}
+
 .section1
 {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    margin-top: 39px;
 }
 .article1
 {
-    width: 880px;
     margin-left: 72px;
+    width: 86%;
+    height: 626px;
+    border: 0px;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: #F2F2F2;
 }
 
+.article1 h1
+{
+    padding-left: 40px;
+    margin-top: 42px;
+}
+#cartes
+{
+    display: grid;
+    grid-template-columns: 246px 246px 246px;
+    grid-gap: 31px;
+    justify-content: center;
+}
+.card1
+{
+    border: 5px;
+    border-color: white;
+    border-style: solid;
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    height: 199px;
+    cursor: pointer;
+    box-shadow: 0 0 10px -3px gray;
+}
+.card1 .container
+{
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 100%;
+}
+.card1 img
+{
+    width: 100%;
+    height: 124px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card1 h4
+{
+
+    margin: 0px;
+    padding-left: 16px;
+    font-size: 16px;
+}
+.card1 p
+{
+    padding-left: 16px;
+    margin-top: 9px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 14px;
+}
+.article1 .etoiles
+{
+    margin-left: 16px;
+    margin-top: 7px;
+}
+.etoiles i
+{
+    font-size: 13px;
+    color: #0065FC;
+}
+
+.etoiles .gray {
+
+    font-size: 13px;
+    color: #F2F2F2;
+}
+
+#lien
+{
+    margin-left: 44px;
+    margin-top: 40px;
+}
+#lien a
+{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
 .article2
 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 72px;
     margin-top: 53px;
-    margin-left: 70px;
+    border: 0px;
+    border-style: solid;
+    border-radius: 20px;
     width: 883px;
     height: 278px;
+    background-color: #F2F2F2;
 }
 .article2 h1
 {
-    padding-left: 0px;
+    margin-left: 40px;
+    margin-top: 34px;
+    padding-bottom: 10px;
 }
-
 .article2 .diagram
 {
     margin-left: 825px;
+    margin-top: 42px;
+    width: 18px;
+    height: 16px;
+    color: #0065FC;
+}
+#titre 
+{
+    display: flex;
 }
 #carte2
 {
     display: flex;
     flex-direction: row;
+    margin-left: 40px;
+    column-gap: 23px;
 }
-
 .card7
 {
-    width: 252px;
-    font-size: 14px;
+    display: flex;
+    margin-bottom: 33px;
     margin-top: 26px;
+    border: 5px;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    border-radius: 20px;
+    height: 144px;
+    cursor: pointer;
+    width: 252px;
+    box-shadow: 0 0 10px -3px gray;
 }
-
+.card7 .container
+{
+    position: absolute;
+    padding-left: 116px;
+    width: 146px;
+}
 .card7 img
 {
     width: 106px;
     height: 144px;
-    padding: 0px;
-    margin: 0px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
-.container h4
+.card7 h4
 {
-    padding-right: 10px;
-}
-.card7 .container
-{
-    margin-left: 120px;
     padding: 0px;
-    width: 120px;
+    margin-bottom: 0px;
+    margin-top: 12px;
+    font-size: 16px;
+    margin-right: 25px;
+}
+.card7 p
+{
+    margin-top: 7px;
+    font-size: 13px;
+}
+.pop1 h1
+{
+    width: 111px;
+}
+.pop1 p 
+{
+    width: 132px;
+}
+.pop1 .etoiles2
+{
+    margin-top: 50px;
+}
+
+.pop2 h1
+{
+    width: 111px;
+}
+.pop2 p 
+{
+    width: 130px;
+}
+
+.pop2 .etoiles3
+{
+    margin-top: 32px;
+}
+.pop3 h1
+{
+    width: 104px;
+}
+.pop3 p 
+{
+    width: 130px;
+}
+.pop3 .etoiles4
+{
+    margin-top: 52px;
 }
 .container .etoiles2
 {
-    margin-top: 40px;
+    font-size: 12px;
+    justify-content: space-between;
 }
-.container .etoiles3
+.etoiles2 i
 {
-    margin-top: 25px;
+    color: #0065FC;
+}
+.etoiles2 .gray 
+{
+    color: #F2F2F2;
 }
 
 .section2
@@ -167,25 +537,54 @@ aside
 {
     column-gap: 50px;
     margin-left: 73px;
-    height: 331px;
+    display: flex;
+    flex-direction: row;
 }
 .card8 img
 {
     height: 211px;
     width: 182px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .card8 article
 {
-    height: 270px;
+    height: 267px;
     width: 182px;
+    border: 2px;
+    border-style: solid;
+    border-color: #F2F2F2;
+    border-radius: 20px;
+    box-shadow: 0 0 10px -3px gray;
+}
+.card8 h4
+{
+    margin-left: 19px;
+    margin-top: 0px;
+}
+.containervp,.containerpomegue
+{
+    margin-top: 20px;
+}
+.containercalanque
+{
+    margin-top: 9px;
+}
+.containerndlg
+{
+    margin-top: 7px;
 }
 footer
 {
     margin-top: 69px;
     padding: 0px;
     margin-left: 74px;
-    width: 879px;
+    width: 87%;
     height: 225px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
 }
 footer .titre
 {
@@ -204,7 +603,7 @@ footer td
 #colonne2
 {
     margin-top: 45px;
-    margin-left: 81px;
+    margin-left: 100px;
 
 }
 #colonne3
