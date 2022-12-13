@@ -347,6 +347,7 @@ aside p
     grid-gap: 31px;
     justify-content: center;
 }
+
 .card1
 {
     border: 5px;
@@ -519,12 +520,13 @@ aside p
 }
 .card8
 {
-    display: flex;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-gap: 52px;
     height: 444px;
     margin-top: 80px;
     margin-left: 50px;
     cursor: pointer;
-    column-gap: 43px;
 }
 .card8 article
 {
@@ -538,7 +540,7 @@ aside p
 .card8 img
 {
 
-    width: 285px;
+    width: 100%;
     height: 389px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;

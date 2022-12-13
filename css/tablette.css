@@ -312,10 +312,11 @@ aside p
 #cartes
 {
     display: grid;
-    grid-template-columns: 246px 246px 246px;
+    grid-template-columns: 28% 28% 28%;
     grid-gap: 31px;
     justify-content: center;
 }
+
 .card1
 {
     border: 5px;
@@ -393,9 +394,10 @@ aside p
     border: 0px;
     border-style: solid;
     border-radius: 20px;
-    width: 883px;
+    width: 86%;
     height: 278px;
     background-color: #F2F2F2;
+    overflow: scroll;
 }
 .article2 h1
 {
@@ -403,23 +405,25 @@ aside p
     margin-top: 34px;
     padding-bottom: 10px;
 }
-.article2 .diagram
+#icone
 {
-    margin-left: 825px;
     margin-top: 42px;
     width: 18px;
     height: 16px;
     color: #0065FC;
+    float: right;
+    margin-right: 40px;
 }
 #titre 
 {
-    display: flex;
+    width: 100%;
 }
 #carte2
 {
-    display: flex;
-    flex-direction: row;
-    margin-left: 40px;
+    display: grid;
+    grid-template-columns: 29% 29% 29%;
+    grid-gap: 31px;
+    justify-content: center;
     column-gap: 23px;
 }
 .card7
@@ -535,10 +539,10 @@ aside p
 }
 .card8
 {
-    column-gap: 50px;
     margin-left: 73px;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    grid-gap: 25px;
 }
 .card8 img
 {

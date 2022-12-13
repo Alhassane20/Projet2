@@ -174,6 +174,7 @@
         height: 48px;
         font-weight: 700;
         font-size: 15px;
+        margin-right: 22px;
 
     }
 
@@ -208,7 +209,7 @@
     #typefiltr
     {
         display: grid;
-        grid-template-columns: 200px 200px;
+        grid-template-columns: 52% 52%;
     }
     .Economique:hover
     {
@@ -233,7 +234,7 @@
         border-color: #e2e2e2;
         border-radius: 40px;
         height: 30px;
-        width: 140px;
+        width: 75%;
         line-height: 30px;
         padding-left: 10px;
         padding-top: 6px;
@@ -241,6 +242,7 @@
         font-weight: 700;
         font-size: 11px;
         margin-left: 20px;
+        overflow: scroll;
     }
     .Economique a
     {
@@ -253,13 +255,14 @@
         border-color: #e2e2e2;
         border-radius: 40px;
         height: 30px;
-        width: 140px;
+        width: 75%;
         line-height: 30px;
         padding-left: 10px;
         padding-top: 6px;
         padding-bottom: 6px;
         font-weight: 700;
         font-size: 11px;
+        overflow: scroll;
     }
     .Familial a
     {
@@ -272,7 +275,7 @@
         border-color: #e2e2e2;
         border-radius: 40px;
         height: 30px;
-        width: 140px;
+        width: 75%;
         padding-left: 10px;
         padding-top: 6px;
         padding-bottom: 6px;
@@ -281,6 +284,7 @@
         font-size: 11px;
         margin-left: 20px;
         margin-top: 17px;
+        overflow: scroll;
     }
     .Romantique a
     {
@@ -294,13 +298,14 @@
         border-radius: 40px;
         height: 30px;
         line-height: 30px;
-        width: 140px;
+        width: 75%;
         padding-left: 10px;
         padding-top: 6px;
         padding-bottom: 6px;
         font-weight: 700;
         font-size: 11px;
         margin-top: 17px;
+        overflow: scroll;
     }
     .Animaux a 
     {
@@ -378,7 +383,7 @@
     border-style: solid;
     background-color: white;
     border-radius: 20px;
-    width: 335px;
+    width: 85%;
     height: 199px;
     cursor: pointer;
     box-shadow: 0 0 10px -3px gray;
@@ -392,7 +397,7 @@
 }
 .card1 img
 {
-    width: 335px;
+    width: 100%;
     height: 124px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -447,7 +452,7 @@
     border: 0px;
     border-style: solid;
     border-radius: 0px;
-    width: 375px;
+    width: 100%;
     height: 645px;
     background-color: #F2F2F2;
 }
@@ -483,18 +488,19 @@
     border-radius: 20px;
     height: 144px;
     cursor: pointer;
-    width: 334px;
+    width: 87%;
     box-shadow: 0 0 10px -3px gray;
 }
 .card7 .container
 {
     position: absolute;
-    padding-left: 140px;
-    width: 170px;
+    padding-left: 130px;
+    width: 50%;
+    overflow: scroll;
 }
 .card7 img
 {
-    width: 137px;
+    width: 40%;
     height: 144px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -552,7 +558,8 @@
     flex-direction: column;
     margin-top: 56px;
     margin-left: 20px;
-    cursor: pointer;
+    cursor: pointer; 
+    width: 88%;
 }
 .card8 article
 {
@@ -565,7 +572,7 @@
 }
 .card8 img
 {
-    width: 334px;
+    width: 100%;
     height: 134px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
