@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 1024px)
+@media screen and (min-width: 768px) and (max-width: 991px)
 {
 body
 {
@@ -397,7 +397,6 @@ aside p
     width: 86%;
     height: 278px;
     background-color: #F2F2F2;
-    overflow: scroll;
 }
 .article2 h1
 {
@@ -411,20 +410,25 @@ aside p
     width: 18px;
     height: 16px;
     color: #0065FC;
-    float: right;
-    margin-right: 40px;
+    position: absolute;
+    right: 30px;
 }
+
 #titre 
 {
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    position: relative;
 }
 #carte2
 {
     display: grid;
     grid-template-columns: 29% 29% 29%;
-    grid-gap: 31px;
+    grid-gap: 23px;
     justify-content: center;
-    column-gap: 23px;
+    margin-bottom: 48px;
 }
 .card7
 {
@@ -438,14 +442,14 @@ aside p
     border-radius: 20px;
     height: 144px;
     cursor: pointer;
-    width: 252px;
+    width: 100%;
     box-shadow: 0 0 10px -3px gray;
 }
 .card7 .container
 {
-    position: absolute;
-    padding-left: 116px;
-    width: 146px;
+    width: 60%;
+    margin-left: 10px;
+    position: relative;
 }
 .card7 img
 {
@@ -461,50 +465,46 @@ aside p
     margin-top: 12px;
     font-size: 16px;
     margin-right: 25px;
+    width: 90%;
+    position: absolute;
 }
 .card7 p
 {
-    margin-top: 7px;
     font-size: 13px;
+    width: 90%;
+    position: absolute;
 }
-.pop1 h1
+.pop1 p
 {
-    width: 111px;
-}
-.pop1 p 
-{
-    width: 132px;
-}
-.pop1 .etoiles2
-{
-    margin-top: 50px;
-}
-
-.pop2 h1
-{
-    width: 111px;
+    margin-top: 55px;
 }
 .pop2 p 
 {
-    width: 130px;
+    margin-top: 80px;
+}
+.pop3 p 
+{
+    margin-top: 55px;
+}
+.pop1 .etoiles2
+{
+    margin-top: 125px;
+    position: absolute;
 }
 
 .pop2 .etoiles3
 {
-    margin-top: 32px;
+    margin-top: 125px;
+    position: absolute;
 }
-.pop3 h1
-{
-    width: 104px;
-}
-.pop3 p 
-{
-    width: 130px;
-}
+
 .pop3 .etoiles4
 {
-    margin-top: 52px;
+    margin-top: 125px;
+    position: absolute;
 }
+
+
 .container .etoiles2
 {
     font-size: 12px;
@@ -526,11 +526,6 @@ aside p
 .article2 h1
 {
     margin-left: 40px;
-    position: absolute;
-}
-.pop3
-{
-    margin-right: 40px;
 }
 
 .section2 h1
@@ -543,18 +538,19 @@ aside p
     display: grid;
     grid-template-columns: 22% 22% 22% 22%;
     grid-gap: 25px;
+    cursor: pointer;
 }
 .card8 img
 {
     height: 211px;
-    width: 182px;
+    width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 .card8 article
 {
     height: 267px;
-    width: 182px;
+    width: 90%;
     border: 2px;
     border-style: solid;
     border-color: #F2F2F2;

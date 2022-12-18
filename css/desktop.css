@@ -1,4 +1,4 @@
-@media screen and (min-width: 1140px) and (max-width: 1400px)
+@media screen and (min-width: 992px) and (max-width: 1400px)
 {
 /* HEADER */
 
@@ -321,7 +321,7 @@ aside p
 .section1
 {
     display: flex;
-    width: 1340px;
+    width: 100%;
     margin-top: 39px;
 }
 .article1
@@ -343,7 +343,7 @@ aside p
 #cartes
 {
     display: grid;
-    grid-template-columns: 246px 246px 246px;
+    grid-template-columns: 28% 28% 28%;
     grid-gap: 31px;
     justify-content: center;
 }
@@ -364,31 +364,37 @@ aside p
 {
     margin-left: 0px;
     padding-left: 0px;
+    position: relative;
 }
 .card1 img
 {
-    width: 246px;
+    width: 100%;
     height: 124px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 .card1 h4
 {
-    position: absolute;
     margin: 0px;
+    margin-top: 4px;
     padding-left: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
 }
 .card1 p
 {
     padding-left: 16px;
-    position: absolute;
     margin: 0px;
-    padding-top: 20px;
+    margin-top: 28px;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
 }
 .article1 .etoiles
 {
-    margin-top: 50px;
     margin-left: 16px;
+    margin-top: 52px;
     position: absolute;
 }
 .etoiles i
@@ -419,6 +425,7 @@ aside p
     display: flex;
     flex-direction: column;
     margin-left: 40px;
+    margin-right: 50px;
     border: 0px;
     border-style: solid;
     border-radius: 20px;
@@ -434,22 +441,31 @@ aside p
 }
 .article2 .diagram
 {
-    margin-left: 150px;
     margin-top: 42px;
     width: 18px;
     height: 16px;
     color: #0065FC;
-    position: relative;
 }
 #titre 
 {
     display: flex;
+    flex-direction: row;
+    position: relative;
 }
+#icone {
+    position: absolute;
+    right: 30px;
+  }
+
+  #carte2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 .card7
 {
     display: flex;
     margin-bottom: 33px;
-    margin-left: 30px;
     border: 5px;
     border-style: solid;
     border-color: white;
@@ -462,9 +478,8 @@ aside p
 }
 .card7 .container
 {
-    position: absolute;
-    padding-left: 140px;
     width: 170px;
+    position: relative;
 }
 .card7 img
 {
@@ -478,18 +493,23 @@ aside p
     padding: 0px;
     margin-bottom: 0px;
     margin-top: 15px;
+    position: absolute;
 
 }
 .card7 p
 {
-    margin-top: 7px;
+    margin-top: 55px;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
 }
 
 .container .etoiles2
 {
     font-size: 12px;
-    margin-top: 45px;
+    margin-top: 120px;
     justify-content: space-between;
+    position: absolute;
 }
 .etoiles2 i
 {
@@ -499,16 +519,13 @@ aside p
 {
     color: #F2F2F2;
 }
-.container .etoiles4
-{
-    margin-top: 63px;
-}
+
 
 .section2
 {
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 87%;
     margin-top: 60px;
 }
@@ -516,7 +533,6 @@ aside p
 {
     margin-left: 50px;
     width: 240px;
-    position: absolute;
 }
 .card8
 {
@@ -524,7 +540,7 @@ aside p
     grid-template-columns: 24% 24% 24% 24%;
     grid-gap: 52px;
     height: 444px;
-    margin-top: 80px;
+    margin-top: 18px;
     margin-left: 50px;
     cursor: pointer;
 }
@@ -588,8 +604,7 @@ footer td
 }
 #colonne2
 {
-
-    margin-left: 347px;
+    margin-left: 230px;
 }
 #colonne3
 {
