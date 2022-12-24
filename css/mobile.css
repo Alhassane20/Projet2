@@ -161,6 +161,8 @@
     {
         border-color: #F2F2F2;
         height: 44px;
+        font-weight: 700;
+        font-size: 18px;
     }
 
     form .bouton 
@@ -209,25 +211,14 @@
     #typefiltr
     {
         display: grid;
-        grid-template-columns: 52% 52%;
+        grid-template-columns: 50% 50%;
     }
-    .Economique:hover
+    .filtre:hover
     {
         background-color: #DEEBFF;
     }
-    .Familial:hover
-    {
-        background-color: #DEEBFF;
-    }
-    .Romantique:hover
-    {
-        background-color: #DEEBFF;
-    }
-    .Animaux:hover
-    {
-        background-color: #DEEBFF;
-    }
-    .Economique
+    
+    .filtre
     {
         border: 3px;
         border-style: solid;
@@ -241,75 +232,17 @@
         padding-bottom: 6px;
         font-weight: 700;
         font-size: 11px;
-        margin-left: 20px;
+        margin-left: 14px;
         overflow: scroll;
     }
-    .Economique a
+    .filtre a
     {
         padding-left: 10px;
     }
-    .Familial
+
+    .filtr1
     {
-        border: 3px;
-        border-style: solid;
-        border-color: #e2e2e2;
-        border-radius: 40px;
-        height: 30px;
-        width: 75%;
-        line-height: 30px;
-        padding-left: 10px;
-        padding-top: 6px;
-        padding-bottom: 6px;
-        font-weight: 700;
-        font-size: 11px;
-        overflow: scroll;
-    }
-    .Familial a
-    {
-        padding-left: 10px;
-    }
-    .Romantique
-    {
-        border: 3px;
-        border-style: solid;
-        border-color: #e2e2e2;
-        border-radius: 40px;
-        height: 30px;
-        width: 75%;
-        padding-left: 10px;
-        padding-top: 6px;
-        padding-bottom: 6px;
-        font-weight: 700;
-        line-height: 30px;
-        font-size: 11px;
-        margin-left: 20px;
-        margin-top: 17px;
-        overflow: scroll;
-    }
-    .Romantique a
-    {
-        padding-left: 10px;
-    }
-    .Animaux
-    {
-        border: 3px;
-        border-style: solid;
-        border-color: #e2e2e2;
-        border-radius: 40px;
-        height: 30px;
-        line-height: 30px;
-        width: 75%;
-        padding-left: 10px;
-        padding-top: 6px;
-        padding-bottom: 6px;
-        font-weight: 700;
-        font-size: 11px;
-        margin-top: 17px;
-        overflow: scroll;
-    }
-    .Animaux a 
-    {
-        padding-left: 10px;
+        margin-bottom: 17px;
     }
 
     aside
@@ -597,28 +530,16 @@ article .container
 
     footer {
         margin-top: 80px;
-        width: 100%;
-        height: 501px;
-        margin-left: 0px;
+        padding-top: 45px;
         display: flex;
         flex-direction: column;
         background-color: #F2F2F2;
         text-align: justify;
+        flex-wrap: wrap;
     }
 
-    #colonne1 {
-        margin-left: 30px;
-        margin-top: 45px;
-    }
-
-    #colonne2 {
-        margin-left: 30px;
-        margin-top: 40px;
-    }
-
-    #colonne3 {
-        margin-left: 30px;
-        margin-top: 51px;
+    .colonne1 {
+        margin-left: 33px;
     }
     footer .titre
 {
@@ -627,5 +548,17 @@ article .container
 footer td
 {
     padding-bottom: 12px;
+}
+.cln1
+{
+    margin-bottom: 40px;
+}
+.cln2
+{
+    margin-bottom: 51px;
+}
+.cln3
+{
+    margin-bottom: 61px;
 }
 }

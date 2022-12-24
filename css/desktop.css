@@ -1,4 +1,4 @@
-@media screen and (min-width: 992px) and (max-width: 1400px)
+@media screen and (min-width: 992px)
 {
 /* HEADER */
 
@@ -6,68 +6,59 @@ body
 {
     font-family: 'Raleway', sans-serif;
     width: 100%;
+    max-width: 1400px;
+    margin: auto;
 
 }
 
 header
 {
     display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
-    width: 1400px;
     width: 100%;
     max-width: 1400px;
+    justify-content: space-between;
+    vertical-align: middle;
 }
 
 #Bookilogo
 {
     margin-left: 55px;
-    padding-top: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #Bookilogo img
 {
-    height: 19px;
+    height: 19px; 
     width: 61,09px;
 }
 nav
 {
     display: flex;
     flex-direction: row;
-    justify-content: right;
-    width: 87%;
+    margin-right: 47px;
 }
 
-.element2
-{
-    border-spacing: 30px;
-    padding-top: 0px;
-    width: 63px;
-    height: 19px;
-    font-weight:400;
-    margin-top: 48px;
-}
 .element1
 {
-    padding-right: 67px;
-    border-spacing: 30px;
-    padding-top: 0px;
-    width: 113px;
-    height: 19px;
+    min-width: 113px;
     font-weight:500;
-    margin-top: 48px;
 }
 
 nav a 
 {
     text-decoration: none;
     color: black;
+    padding: 30px 30px 10px 30px; 
+    display: inline-flex;
 }
 nav a:hover
 {
     color: #0065FC;
     border-top: solid;
     border-color: #0065FC;
-    padding-top: 53px;
+    padding-top: 44px;
 }
 
 .section0
@@ -121,6 +112,8 @@ form .Endroit
 {
     border-color: #F2F2F2;
     height: 44px;
+    font-weight: 700;
+    font-size: 18px;
 }
 form .bouton
 {
@@ -148,11 +141,7 @@ form input
     flex-wrap: nowrap;
     width: 80%;
 }
-#typefiltr
-{ 
-    display: flex;
-    flex-direction: row;
-}
+
 #Filtres a
 {
     text-decoration: none;
@@ -169,23 +158,20 @@ form input
 {
     color: #0065FC;
 }
-.Economique:hover
+#typefiltr
+{
+    margin-left: 45px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    width: 90%;
+}
+.filtre:hover
 {
     background-color: #DEEBFF;
 }
-.Familial:hover
-{
-    background-color: #DEEBFF;
-}
-.Romantique:hover
-{
-    background-color: #DEEBFF;
-}
-.Animaux:hover
-{
-    background-color: #DEEBFF;
-}
-.Economique
+
+.filtre
 {
     border: 3px;
     border-style: solid;
@@ -193,11 +179,9 @@ form input
     border-radius: 40px;
     text-align: center;
     height: 30px;
-    width: 160px;
+    width: 30%;
     line-height: 30px;
     margin-top: 40px;
-    margin-right: 45px;
-    margin-left: 50px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 6px;
@@ -206,82 +190,13 @@ form input
     font-family: raleway;
     font-style: normal;
     font-size: 17px;
+    overflow: hidden;
 }
-.Economique a
+.filtre a
 {
     padding-left: 10px;
 }
-.Familial
-{
-    border: 3px;
-    border-style: solid;
-    border-color: #e2e2e2;
-    border-radius: 40px;
-    height: 30px;
-    width: 130px;
-    text-align: center;
-    line-height: 30px;
-    margin-top: 40px;
-    margin-right: 45px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    font-weight: 700;
-    font-family: raleway;
-    font-style: normal;
-    font-size: 17px;
-}
-.Familial a
-{
-    padding-left: 10px;
-}
-.Romantique
-{
-    border: 3px;
-    border-style: solid;
-    border-color: #e2e2e2;
-    border-radius: 40px;
-    height: 30px;
-    width: 150px;
-    text-align: center;
-    margin-top: 40px;
-    margin-right: 45px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    font-weight: 700;
-    font-style: normal;
-    line-height: 30px;
-    font-size: 17px;
-}
-.Romantique a
-{
-    padding-left: 10px;
-}
-.Animaux
-{
-    border: 3px;
-    border-style: solid;
-    border-color: #e2e2e2;
-    border-radius: 40px;
-    height: 30px;
-    line-height: 30px;
-    width: 200px;
-    text-align: center;
-    margin-top: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    font-weight: 700;
-    font-size: 17px;
-}
-.Animaux a 
-{
-    padding-left: 10px;
-}
+
 
 /* ASIDE */
 
@@ -493,23 +408,19 @@ aside p
     padding: 0px;
     margin-bottom: 0px;
     margin-top: 15px;
-    position: absolute;
 
 }
 .card7 p
 {
-    margin-top: 55px;
     font-size: 14px;
     font-weight: 400;
-    position: absolute;
+    margin-top: 7px;
 }
 
 .container .etoiles2
 {
     font-size: 12px;
-    margin-top: 120px;
     justify-content: space-between;
-    position: absolute;
 }
 .etoiles2 i
 {
@@ -518,6 +429,18 @@ aside p
 .etoiles2 .gray 
 {
     color: #F2F2F2;
+}
+.etoiles1
+{
+    margin-top: 50px;
+}
+.etoiles3
+{
+    margin-top: 48px;
+}
+.etoiles4
+{
+    margin-top: 68px;
 }
 
 
@@ -538,10 +461,11 @@ aside p
 {
     display: grid;
     grid-template-columns: 24% 24% 24% 24%;
-    grid-gap: 52px;
+    width: 97%;
+    grid-gap: 4.5%;
     height: 444px;
     margin-top: 18px;
-    margin-left: 50px;
+    margin-left: 53px;
     cursor: pointer;
 }
 .card8 article
@@ -579,15 +503,17 @@ article .container
 footer
 {
     margin-left: 48px;
+    margin-right: 53px;
     margin-top: 61px;
     padding-left: 70px;
+    padding-right: 70px;
     padding-top: 45px;
     background-color: #F2F2F2;
-    height: 225px;
-    width: 87%;
     text-align: justify;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 footer .titre
 {
@@ -597,18 +523,8 @@ footer td
 {
     padding-bottom: 12px;
 }
-#colonne1
+.colonne1
 {
-    margin-left: 20px;
-
-}
-#colonne2
-{
-    margin-left: 230px;
-}
-#colonne3
-{
-
-    margin-left: 239px;
+    min-width: 100px;
 }
 }

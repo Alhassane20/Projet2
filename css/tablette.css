@@ -11,12 +11,12 @@ header
 {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 #Bookilogo
 {
     margin-left: 72px;
-    padding-top: 44px;
+    margin-top: 53px;
 }
 #Bookilogo img
 {
@@ -25,25 +25,27 @@ header
 }
 nav
 {
-    margin-top: 48px;
+    margin-right: 20px;
     display: flex;
     flex-direction: row;
     justify-content: right;
     width: 80%;
 }
-.element2
-{
-    margin-left: 68px;
-}
+
 nav a 
 {
     text-decoration: none;
     color: black;
-    
+    padding: 48px 30px 10px 30px; 
+    display: inline-flex;
 }
 .element1
 {
     font-weight: 400;
+    padding-right: 67px;
+    border-spacing: 30px;
+    width: 113px;
+    height: 19px;
 }
 
 .section0 h1
@@ -89,6 +91,8 @@ form .Endroit
 {
     border-color: #F2F2F2;
     height: 44px;
+    font-weight: 700;
+    font-size: 18px;
 }
 form .bouton
 {
@@ -138,23 +142,12 @@ form input
 {
     color: #0065FC;
 }
-.Economique:hover
+.filtre:hover
 {
     background-color: #DEEBFF;
 }
-.Familial:hover
-{
-    background-color: #DEEBFF;
-}
-.Romantique:hover
-{
-    background-color: #DEEBFF;
-}
-.Animaux:hover
-{
-    background-color: #DEEBFF;
-}
-.Economique
+
+.filtre
 {
     border: 3px;
     border-style: solid;
@@ -162,7 +155,7 @@ form input
     border-radius: 40px;
     text-align: center;
     height: 30px;
-    width: 160px;
+    width: 30%;
     line-height: 30px;
     margin-top: 40px;
     margin-right: 20px;
@@ -177,89 +170,15 @@ form input
     font-size: 17px;
     overflow: hidden;
 }
-.Economique a
+.filtre a
 {
     padding-left: 10px;
 }
-.Familial
-{
-    border: 3px;
-    border-style: solid;
-    border-color: #e2e2e2;
-    border-radius: 40px;
-    height: 30px;
-    width: 130px;
-    text-align: center;
-    line-height: 30px;
-    margin-top: 40px;
-    margin-right: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    font-weight: 700;
-    font-family: raleway;
-    font-style: normal;
-    font-size: 17px;
-    overflow: hidden;
-}
-.Familial a
-{
-    padding-left: 10px;
-}
-.Romantique
-{
-    border: 3px;
-    border-style: solid;
-    border-color: #e2e2e2;
-    border-radius: 40px;
-    height: 30px;
-    width: 150px;
-    text-align: center;
-    margin-top: 40px;
-    margin-right: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    font-weight: 700;
-    font-style: normal;
-    line-height: 30px;
-    font-size: 17px;
-    overflow: hidden;
-}
-.Romantique a
-{
-    padding-left: 10px;
-}
-.Animaux
-{
-    border: 3px;
-    border-style: solid;
-    border-color: #e2e2e2;
-    border-radius: 40px;
-    height: 30px;
-    line-height: 30px;
-    width: 200px;
-    text-align: center;
-    margin-top: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    font-weight: 700;
-    font-size: 17px;
-    overflow: hidden;
-}
-.Animaux a 
-{
-    padding-left: 10px;
-}
-aside
+aside 
 {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    margin-top: 54px;
 }
 aside i
 {
@@ -275,15 +194,13 @@ aside i
     border-color: #DEEBFF;
     width: 24px;
     height: 24px;
-    margin-top: 50px;
     margin-left: 72px;
-    position: absolute;
 }
 aside p
 {
-    margin-left: 107px;
-    margin-top: 52px;
+    margin-left: 11px;
     font-weight: 400;
+    margin-top: 6px;
 }
 
 .section1
@@ -476,7 +393,7 @@ aside p
 }
 .pop1 p
 {
-    margin-top: 55px;
+    margin-top: 62px;
 }
 .pop2 p 
 {
@@ -484,7 +401,7 @@ aside p
 }
 .pop3 p 
 {
-    margin-top: 55px;
+    margin-top: 62px;
 }
 .pop1 .etoiles2
 {
@@ -549,7 +466,7 @@ aside p
 }
 .card8 article
 {
-    height: 267px;
+    height: 275px;
     width: 90%;
     border: 2px;
     border-style: solid;
@@ -577,14 +494,17 @@ aside p
 footer
 {
     margin-top: 69px;
-    padding: 0px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 45px;
     margin-left: 74px;
-    width: 87%;
-    height: 225px;
+    margin-right: 53px;
     background-color: #F2F2F2;
     display: flex;
     flex-direction: row;
     text-align: justify;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 footer .titre
 {
@@ -596,21 +516,7 @@ footer td
 }
 #colonne1
 {
-    margin-top: 45px;
-    margin-left: 70px;
-    padding: 0px;
-}
-#colonne2
-{
-    margin-top: 45px;
-    margin-left: 100px;
-
-}
-#colonne3
-{
-    margin-top: 45px;
-    margin-left: 82px;
-
+    min-width: 100px;
 }
 
 }
