@@ -14,7 +14,6 @@ body
 header
 {
     display: flex;
-    flex-wrap: nowrap;
     width: 100%;
     justify-content: space-between;
     vertical-align: middle;
@@ -23,9 +22,7 @@ header
 #Bookilogo
 {
     margin-left: 55px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin-top: 53px;
 }
 #Bookilogo img
 {
@@ -48,7 +45,7 @@ nav a
 {
     text-decoration: none;
     color: black;
-    padding: 30px 30px 10px 30px; 
+    padding: 53px 30px 10px 30px; 
     display: inline-flex;
 }
 nav a:hover
