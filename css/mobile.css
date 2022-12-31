@@ -289,7 +289,7 @@
 {
     display: none;
 }
-.article1 h1
+.article1 h2
 {
     margin-left: 20px;
     margin-top: 42px;
@@ -331,12 +331,15 @@
     height: 124px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: cover;
 }
-.card1 h4
+.card1 h3
 {
     margin-top: 4px;
     margin: 0px;
     padding-left: 16px;
+    font-size: 16px;
+    font-weight: 700;
 }
 .card1 p
 {
@@ -383,12 +386,14 @@
     height: 645px;
     background-color: #F2F2F2;
 }
-.article2 h1
+.article2 h4
 {
     padding-left: 37px;
     margin-top: 28px;
     width: 262px;
     padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: 700;
 }
 .article2 .diagram
 {
@@ -437,13 +442,15 @@
     height: 144px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    object-fit: cover;
 }
-.card7 h4
+.card7 h5
 {
     padding: 0px;
     margin-bottom: 0px;
     margin-top: 15px;
-
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .container .etoiles2
@@ -470,7 +477,7 @@
     display: flex;
     flex-direction: column;
 }
-.section2 h1
+.section2 h6
 {
     margin-left: 20px;
     font-size: 22px;
@@ -503,8 +510,9 @@
     border-top-right-radius: 20px;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    object-fit: cover;
 }
-.card8 h4
+.card8 p 
 {
     margin-top: 12px;
 }

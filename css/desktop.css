@@ -16,7 +16,6 @@ header
     display: flex;
     width: 100%;
     justify-content: space-between;
-    vertical-align: middle;
 }
 
 #Bookilogo
@@ -237,10 +236,12 @@ aside p
     background-color: #F2F2F2;
 }
 
-.article1 h1
+.article1 h2
 {
     padding-left: 40px;
     margin-top: 42px;
+    font-weight: 700;
+    font-size: 22px;
 }
 #cartes
 {
@@ -273,8 +274,9 @@ aside p
     height: 124px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: cover;
 }
-.card1 h4
+.card1 h3
 {
     padding-left: 16px;
     font-size: 16px;
@@ -330,11 +332,13 @@ aside p
     height: 645px;
     background-color: #F2F2F2;
 }
-.article2 h1
+.article2 h4
 {
     padding-left: 37px;
     margin-top: 42px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
+    font-size: 22px;
+    font-weight: 700;
 }
 .article2 .diagram
 {
@@ -358,6 +362,7 @@ aside p
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 0px;
   }
 .card7
 {
@@ -387,13 +392,15 @@ aside p
     height: 144px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    object-fit: cover;
 }
-.card7 h4
+.card7 h5
 {
     padding: 0px;
     margin-bottom: 0px;
     margin-top: 15px;
-
+    font-size: 16px;
+    font-weight: 700;
 }
 .card7 p
 {
@@ -423,10 +430,13 @@ aside p
     width: 87%;
     margin-top: 60px;
 }
-.section2 h1
+.section2 h6
 {
     margin-left: 50px;
     width: 240px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 18px;
 }
 .card8
 {
@@ -435,7 +445,7 @@ aside p
     width: 97%;
     grid-gap: 4.5%;
     height: 444px;
-    margin-top: 18px;
+    margin-top: 0px;
     margin-left: 53px;
     cursor: pointer;
 }
@@ -457,8 +467,9 @@ aside p
     border-top-right-radius: 20px;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    object-fit: cover;
 }
-.card8 h4
+.card8 p
 {
     margin-top: 12px;
     margin-left: 19px;
@@ -501,4 +512,3 @@ footer td
     min-width: 100px;
 }
 }
-

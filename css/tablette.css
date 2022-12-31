@@ -128,7 +128,6 @@ form input
 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     column-gap: 2%;
     width: 100%;
 }
@@ -173,7 +172,7 @@ form input
     font-weight: 700;
     font-family: raleway;
     font-style: normal;
-    font-size: 17px;
+    font-size: 15px;
     white-space: nowrap;
 }
 .filtre a
@@ -227,10 +226,12 @@ aside p
     background-color: #F2F2F2;
 }
 
-.article1 h1
+.article1 h2
 {
     padding-left: 40px;
     margin-top: 42px;
+    font-size: 22px;
+    font-weight: 700;
 }
 #cartes
 {
@@ -264,13 +265,15 @@ aside p
     height: 124px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: cover;
 }
-.card1 h4
+.card1 h3
 {
 
     margin: 0px;
     padding-left: 16px;
     font-size: 16px;
+    font-weight: 700;
 }
 .card1 p
 {
@@ -321,11 +324,13 @@ aside p
     height: 278px;
     background-color: #F2F2F2;
 }
-.article2 h1
+.article2 h4
 {
     margin-left: 40px;
     margin-top: 34px;
     padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: 700;
 }
 #icone
 {
@@ -383,19 +388,24 @@ aside p
     height: 144px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    object-fit: cover;
 }
-.card7 h4
+.card7 h5
 {
     margin-top: 0px;
     margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 700;
 }
 .card7 p 
 {
     margin-top: 0px;
+    font-size: 13px;
 }
 .container .etoiles2
 {
     font-size: 12px;
+    white-space: nowrap;
 }
 .etoiles2 i
 {
@@ -409,14 +419,18 @@ aside p
 .article2 h1
 {
     margin-left: 40px;
+    font-size: 22px;
+    font-weight: 700;
 }
 .section2
 {
     margin-top: 70px;
 }
-.section2 h1
+.section2 h6
 {
     margin-left: 81px;
+    font-size: 22px;
+    font-weight: 700;
 }
 .card8
 {
@@ -432,6 +446,7 @@ aside p
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: cover;
 }
 .card8 article
 {
@@ -444,7 +459,7 @@ aside p
     box-shadow: 0 0 10px -3px gray;
 }
 
-.card8 h4
+.card8 p
 {
     margin-left: 19px;
     display: flex;
